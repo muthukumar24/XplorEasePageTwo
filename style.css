@@ -1,0 +1,975 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(roboto.regular.ttf);
+}
+
+/* Chat Icon */
+/* --------- */
+
+.chaticon
+{
+  height: 90px;
+  width: 90px;
+  border-radius: 0px 25px 25px 0px;
+  opacity: 0.8;
+  background: #FF385C;
+  position: fixed;
+  top: 530px;
+}
+
+.supportchaticon
+{
+    height: 48px;
+    width: 49px;
+    margin: 20px 20px 20px 20px;
+}
+
+/* ----------- */
+/* Section One */
+/* ----------- */
+.sectionone
+{
+    height: 150px;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+    background: #FFF;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.sectionone-containerone
+{   
+    height: 83px;
+    width: 217px;
+    /* border: solid blue; */
+    margin: 36px auto 80px 28px;
+    display: inline-flex;
+}
+
+.sectionone-containertwo
+{
+    height: 56px;
+    width: 576px;
+    /* border: solid green; */
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    margin: 62px 80px 30px auto;
+}
+
+.sectionone-contentareaone
+{
+   text-align: center;
+}
+
+.heartimage
+{   
+    height: 24px;
+    width: 24px;
+    margin: 20px 0px 0px 0px;
+}
+
+.sectionone-containertwo-textone
+{
+    color: #111;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+.triplink
+{   
+    color: #111;
+    text-decoration: none;
+}
+
+.sectionone-contentareatwo
+{
+   text-align: center;
+}
+
+.notificationimage
+{
+    height: 24px;
+    width: 24px;
+    margin: 20px 0px 0px 0px;
+}
+
+.sectionone-containertwo-texttwo
+{
+    color: #111;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+.notificationlink
+{   
+    color: #111;
+    text-decoration: none;
+}
+
+.sectionone-contentareathree
+{
+    height: 24px;
+    width: 146px;
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 8px;
+}
+
+.sectionone-contentareathree-text
+{
+    color: #111;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sectionone-contentareafour
+{
+    height: 56px;
+    width: 158px;
+    border:solid #111;
+    border-radius: 10px;
+    background: #111;
+}
+
+.sectionone-contentareafour-text
+{   
+    text-align: center;
+}
+
+.login-signuplink
+{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    text-transform: uppercase;
+}
+/* ---------------------------------------------------- */
+/* Section Two */
+/* ---------------------------------------------------- */
+.sectiontwo{
+    height: 65px;
+    width: 100%;
+    /* border: solid blue; */
+}
+
+.secttiontwo-containerone
+{
+   height: 50px;
+   width: 60%;
+   /* border: solid red; */
+   display: flex;
+   justify-content: space-between;
+   margin: 5px auto;
+}
+
+.sectiontwo-contents
+{
+    text-align: center;
+}
+
+/* Flights */
+
+.sectiontwo-aeroplane
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-textone
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.flightslink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Hotel */
+.sectiontwo-hotel
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-texttwo
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.hotelslink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* suitcase */
+.sectiontwo-suitcase
+{
+    height: 24px;
+    width: 19px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-textthree
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.tourlink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Trains */
+.sectiontwo-train
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-textfour
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.trainslink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Cabs */
+
+.sectiontwo-cab
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-textfive
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.cabslink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Forex */
+
+.sectiontwo-forex
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-textsix
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.forexlink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* MoreMenu */
+
+.sectiontwo-menu
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-textseven
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.menulink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Filter */
+
+.sectiontwo-filter
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sectiontwo-content-texteight
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.filterlink
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* Horrizondal Line */
+.secttiontwo-containertwo
+{
+    height: 1px;
+    width: 60%;
+    background-color: #111;
+    margin: auto;
+}
+
+/* ------------------------------------------------------ */
+/* Section Three */
+/* ------------------------------------------------------ */
+
+.sectionthree
+{
+    height: 117px;
+    width: auto;
+    background-image: url(Rectangle\ 118.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    /* border: solid red; */
+    display: flex;
+}
+
+.sectionthree-content
+{   
+    height: 48px;
+    width: 30%;
+    padding: 10px 10px;
+    /* border: solid black; */
+    margin: 25px auto 20px auto;
+}
+
+.inputbox
+{   
+    color: #111;
+    height: 40px;
+    width: 100%;
+    font-size: 1em;
+    border-radius: 20px;
+    background: #FFF;
+    border: #FFF;
+    opacity: 0.7;
+    padding-left: 15px;
+}
+
+/* ------------------------------------------ */
+/* Section Plan */
+.section-plan
+{
+   height: 100px;
+   width: 100%;
+   /* border: solid blue; */
+}
+
+.sectionplan-contentarea
+{
+    height: 98px;
+    width: 100%;
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionplan-contentone
+{
+    height: 30px;
+    width: 231px;
+    /* border: solid red; */
+    margin-top: 40px;
+}
+
+.sectionplan-contentone-text
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px
+}
+
+.sectionplan-contenttwo
+{
+    height: 45px;
+    width: 179px;
+    /* border: solid red; */
+    margin: 30px;
+}
+
+.selectcountries
+{
+    height: 45px;
+    width: 179px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background:  #858585;
+    border: #858585;
+
+}
+
+/* ------------------------------------------ */
+/* Section Four */
+/* ------------------------------------------ */
+
+.section-four
+{
+    height: 550px;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+}
+
+.section-four-maincontainer
+{
+    height: 546px;
+    width: 100%;
+    /* border: solid rgb(70, 31, 70); */
+    display: block;
+}
+
+.sectionfour-contentone
+{
+   height: 50px;
+   width: 100%;
+   /* border: solid green; */
+   display: flex;
+}
+
+.sectionfour-contentone-textarea
+{
+    height: 30px;
+    width: 200px;
+    /* border: solid red; */
+    display: block;
+    margin-top: 10px;
+}
+
+.sectionfour-contentone-text
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.sectionfour-contenttwo
+{
+    height: 485px;
+    width: 100%;
+    /* border: solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionfour-contenttwo-card
+{
+    height: 480px;
+    width: 411px;
+    /* border: solid pink; */
+}
+
+.section-four-content-textone
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.section-four-content-texttwo
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-four-button
+{   
+    color: #FFF;
+    width: 141px;
+    height: 51px;
+    border-radius: 5px;
+    background: #000;
+}
+/* ----------------------------------------- */
+/* Section Place Cards */
+
+.section-placecards
+{
+    height: 400px;
+    width: 100%;
+    /* border: solid green; */
+    display: block;
+}
+
+.placecards-contentarea
+{
+    height: 300px;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.placecard
+{
+    height: 298px;
+    width: 200px;
+    /* border: solid blue; */
+}
+
+.placecontentarea
+{
+    height: 22px;
+    width: 198px;
+    /* border: solid brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sydney
+{
+   height: 20px;
+   width: 53px;
+   /* border: solid red; */
+}
+
+.citynametext
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.ratings
+{
+    height: 20px;
+    width: 90px;
+    /* border: solid rgb(0, 0, 0); */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.threestarratingcounts
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    margin-top: 4px;
+}
+
+.mainplacearea
+{
+    height: 62px;
+    width: 180px;
+    /* border: solid violet; */
+}
+
+.mainplace-text
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.locals-text
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.Melbourne
+{
+    height: 19px;
+    width: 78px;
+    /* border: solid red; */
+}
+
+.brisbane
+{
+    height: 19px;
+    width: 64px;
+    /* border: solid red; */
+}
+
+.perth
+{
+    height: 19px;
+    width: 40px;
+    /* border: solid red; */
+}
+
+.goldcoast
+{
+    height: 19px;
+    width: 79px;
+    /* border: solid red; */
+}
+
+.showallmenuarea
+{
+    height: 51px;
+    width: 124px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.showalllink
+{
+    text-decoration: none;
+}
+
+.showalltext
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+
+/* ----------------------------------------- */
+/* Section Your Guide area */
+
+.section-guide
+{
+    height: 442px;
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+}
+
+.container-guidearea
+{
+    height: 440px;
+    width: 100%;
+    /* border: solid black; */
+    display: flex;
+}
+
+.guidearea-contentone
+{
+    height: 438px;
+    width: 50%;
+    /* border: solid yellow; */
+    display: block;
+}
+
+.guidearea-contentone-textareaone
+{
+    height: 35px;
+    width: 281px;
+    /* border: solid green; */
+}
+
+.textareaone-text
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.guidearea-contentone-textareatwo
+{
+    height: 24px;
+    width: 180px;
+    /* border: solid black; */
+    margin-top: 40px;
+    display: flex;
+}
+
+.textareatwo-text
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px 0px 0px 4px;
+}
+
+.guidearea-contentone-textareathree
+{
+    height: 207px;
+    width: 90%;
+    /* border: solid red; */
+    margin-top: 20px;
+}
+
+.textareathree-text
+{
+    color: #000;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.guideatrea-contenttwo
+{
+    height: 438px;
+    width: 50%;
+    /* border: solid violet; */
+    background-image: url(Rectangle\ 163.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playicon
+{
+    height: 50px;
+    width: 50px;
+    margin: 194px auto 194px auto;
+}
+
+/* ------------------------------------- */
+/* Footer Section */
+/* ------------------------------------- */
+.footerarea
+{
+    width: 100%;
+    height: 414px;
+    /* border: solid red; */
+    background-color: #F0F0F0;
+}
+
+.footer-container
+{
+    width: 90%;
+    height: 410px;
+    /* border: solid black; */
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between
+}
+
+.footer-contentone
+{
+    height: 64px;
+    width: 184px;
+    /* border: solid blue; */
+    margin-top: 89px;
+}
+
+.footer-contenttwo
+{
+    width: 200px;
+    height: 250px;
+    /* border: solid blue; */
+    margin-top: 71px;
+}
+
+.footer-contentthree
+{
+    width: 200px;
+    height: 300px;
+    /* border: solid blue; */
+    margin-top: 71px;
+}
+
+.footer-contentfour
+{
+    width: 200px;
+    height: 300px;
+    /* border: solid blue; */
+    margin-top: 71px;
+}
+
+.footer-contentfive
+{
+    width: 200px;
+    height: 300px;
+    /* border: solid blue; */
+    margin-top: 71px;
+}
+
+.footer-content-text{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+
+.footercontentlinks
+{
+    text-decoration: none;
+}
+
+.footer-text-contents
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-socialmedias
+{
+    height: 200px;
+    width: 110px;
+    /* border: solid red; */
+    margin: 0px auto 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialmedialogos
+{
+    height: 24px;
+    width: 24px;
+    margin-left: 1px;
+}
+
+.socialmedialinks
+{
+    text-decoration: none;
+}
+.socialmedia-text
+{
+    color: #373737;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3px 0px 0px 8px;
+}
